@@ -37,12 +37,39 @@
 		echo $scripts_for_layout;
 	?>
 </head>
+<style>
+body {
+	font-size: 12px;
+}
+#header {
+	padding-top: 15px;
+	margin-bottom: 20px;
+}
+#logo {
+	float: left;
+	margin-right: 10px;
+}
+.app-name {
+	color: white;
+	font-size: 24px;
+	padding-top: 7px;
+}
+.app-name a {
+	color: white;
+	text-decoration: none;
+}
+.app-by {
+	font-size: 12px;
+	color: #999999;
+}
+</style>
 <body>
 	<div id="container">
 		<div id="header">
-			<div id="logo">
-				<?php print $html->link(Configure::read('App.name'), '/') ?>
-				<div id="tagline">by Broad > Administrative Computing > Core Systems</div>
+			<div>
+				<?php print $html->image('minilogo.png', array('id' => 'logo')) ?>
+				<div class="app-name"><?php print $html->link(Configure::read('App.name'), '/') ?></div>
+				<div class="app-by">an application created by Broad Institute Administrative Computing</div>
 			</div>
 		</div>
 		<div id="content">
