@@ -1,0 +1,66 @@
+body {
+	margin: 0;
+	color: white;
+	background: url('../img/background.png') repeat-x;
+	background-color: black;
+	font: 12px 'PerspectiveSansRegular', Arial, sans-serif;
+}
+a, a:active, a:visited {
+	color: white;
+}
+
+.twocol {
+	float: left;
+	width: 50%;
+}
+.threecol {
+	float: left;
+	width: 33%;
+}
+
+#container {
+	width: 1080px;
+	margin: auto;
+	padding-top: 15px;
+	padding-left: 36px;
+	background-color: rgba(0,0,0,.5);
+	min-height: 1000px;
+}
+#header {
+	height: 64px;
+	margin-bottom: 20px;
+}
+#logo {
+	font: 46px 'ChunkFiveRegular', Arial, sans-serif;letter-spacing: 0;
+	line-height: 25px;
+}
+#logo a {
+	text-decoration: none;
+}
+#tagline {
+	font: 14px 'PerspectiveSansRegular', Arial, sans-serif;
+}
+
+/* tables */
+table {
+	border: 1px solid black;
+	background-color: #292929;
+	width: 100%;
+}
+table thead {
+
+}
+table thead th {
+	text-align: left;
+}
+table thead tr {
+	color: white;
+	background-color: #2A97FF;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+}
+th, td {
+	font-weight: normal;
+	padding: 5px;
+}

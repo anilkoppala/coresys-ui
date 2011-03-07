@@ -1,0 +1,50 @@
+/* gui menus */
+.gui {
+
+}
+.gui ul {
+	padding: 0;
+	margin: 0;
+}
+.gui li {
+	margin-bottom: 5px;
+	list-style-type: none;
+}
+.gui-menu li:hover {
+	color: white;
+	background-color: #2A97FF;
+	cursor: pointer;
+}
+.gui-menu-v a, .gui-menu-h a {
+	padding: 10px;
+	display: block;
+	color: white;
+	cursor: pointer;
+	text-decoration: none;
+}
+.gui-menu-v a:hover, .gui-menu-h a:hover {
+	color: white;
+	cursor: pointer;
+	text-decoration: none;
+}
+.gui-menu-v li {
+	border-bottom: 1px solid #666666;
+}
+.gui-menu-h li {
+	float: left;
+	width: 130px;
+	border-right: 1px solid #666666;
+	text-align: center;
+}
+.gui-menu-h, .gui-menu-v li:last-child {
+	border: none;
+}
+.gui-panel {
+	padding: 5px;
+	background-color: #292929;
+}
+.gui-radius {
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+}

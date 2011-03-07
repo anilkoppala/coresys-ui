@@ -1,0 +1,21 @@
+/* grids */
+.data {
+	font-size: 11px;
+	font-family: "lucida grande",tahoma,verdana,arial,sans-serif;
+}
+.three {
+	width: 30%;
+	display: inline-block;
+}
+.four {
+	width: 24%;
+	display: inline-block;
+}
+.five {
+	width: 20%;
+	display: inline-block;
+}
+.lineitem {
+	background-color: #292929;
+	padding: 10px;
+}
