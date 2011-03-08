@@ -30,7 +30,6 @@
 		echo $this->Html->css('960/code/css/960.css');
 		echo $this->Html->css('formalize/assets/stylesheets/formalize.css');
 		echo $this->Html->css('default');
-		//echo $this->Html->css('cake.generic.css');
 		echo $this->Html->css('app');
 		echo $this->Html->css('fonts');
 		echo $this->Html->css('smoothness/jquery-ui-1.8.10.custom.css');
