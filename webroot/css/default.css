@@ -3,15 +3,69 @@ body {
 	color: black;
 	background: url(../img/header.png) repeat-x;
 	font-family: Verdana;
+	font-size: 12px;
 }
 a, a:active, a:visited {
-	color: black;
+
 }
+h1 {
+	font-size: 1.5em;
+	margin-bottom: 5px;
+}
+
 #container {
-	width: 1080px;
+	width: 960px;
 	margin: auto;
 }
 #header {
 	height: 75px;
 	font: 12px 'PerspectiveSansRegular', Arial, sans-serif;
+	padding-top: 15px;
+	margin-bottom: 20px;
+}
+#logo {
+	float: left;
+	margin-right: 10px;
+}
+.app-name {
+	color: white;
+	font-size: 24px;
+	padding-top: 7px;
+}
+.app-name a {
+	color: white;
+	text-decoration: none;
+}
+.app-by {
+	font-size: 12px;
+	color: #999999;
+}
+
+/* forms */
+div.input > label {
+	display: block;
+}
+div.input label {
+	margin-bottom: 5px;
+}
+div.input {
+	margin-bottom: 10px;
+}
+fieldset {
+	padding: 20px;
+	border: 1px solid #CCCCCC;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	margin-bottom: 20px;
+}
+fieldset legend {
+	font-weight: bold;
+}
+input[type="radio"] {
+	float: left;
+}
+input[type="radio"] + label {
+	margin-left: 15px;
+	display: block;
 }

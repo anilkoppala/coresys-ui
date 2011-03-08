@@ -26,45 +26,19 @@
 		<?php //echo $title_for_layout; ?>
 	</title>
 	<?php
-		// echo $this->Html->css('blueprint/blueprint/screen.css');
+		echo $this->Html->css('960/code/css/reset.css');
+		echo $this->Html->css('960/code/css/960.css');
+		echo $this->Html->css('formalize/assets/stylesheets/formalize.css');
 		echo $this->Html->css('default');
+		//echo $this->Html->css('cake.generic.css');
+		echo $this->Html->css('app');
 		echo $this->Html->css('fonts');
-		//echo $this->Html->css('forms');
-		//echo $this->Html->css('grids');
-		//echo $this->Html->css('gui');
-		
-		echo $this->Html->css('/js/jquery-ui/css/custom-theme/jquery-ui-1.8.10.custom.css');
+		echo $this->Html->css('smoothness/jquery-ui-1.8.10.custom.css');
 		echo $this->Html->script('jquery-ui/js/jquery-1.4.4.min.js');
 		echo $this->Html->script('jquery-ui/js/jquery-ui-1.8.10.custom.min.js');
 		echo $scripts_for_layout;
 	?>
 </head>
-<style>
-body {
-	font-size: 12px;
-}
-#header {
-	padding-top: 15px;
-	margin-bottom: 20px;
-}
-#logo {
-	float: left;
-	margin-right: 10px;
-}
-.app-name {
-	color: white;
-	font-size: 24px;
-	padding-top: 7px;
-}
-.app-name a {
-	color: white;
-	text-decoration: none;
-}
-.app-by {
-	font-size: 12px;
-	color: #999999;
-}
-</style>
 <body>
 	<div id="container">
 		<div id="header">
