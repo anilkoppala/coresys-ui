@@ -15,3 +15,16 @@ a, a:active, a:visited {
 	height: 75px;
 	font: 12px 'PerspectiveSansRegular', Arial, sans-serif;
 }
+
+/* tables */
+.table {
+	
+}
+.table th {
+	text-align: left;
+}
+
+
+/* info boxes */
+
+/* forms */
