@@ -26,15 +26,16 @@
 		<?php //echo $title_for_layout; ?>
 	</title>
 	<?php
-		// echo $this->Html->css('blueprint/blueprint/screen.css');
 		echo $this->Html->css('default');
 		echo $this->Html->css('fonts');
 		//echo $this->Html->css('forms');
 		//echo $this->Html->css('grids');
 		//echo $this->Html->css('gui');
+		echo $this->Html->css('hashgrid.css');
 		echo $this->Html->css('smoothness/jquery-ui-1.8.10.custom.css');
 		echo $this->Html->script('jquery-ui/js/jquery-1.4.4.min.js');
 		echo $this->Html->script('jquery-ui/js/jquery-ui-1.8.10.custom.min.js');
+		echo $this->Html->script('hashgrid/hashgrid.js');
 		echo $scripts_for_layout;
 	?>
 </head>
