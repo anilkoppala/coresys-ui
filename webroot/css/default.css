@@ -1,7 +1,8 @@
 body {
 	margin: 0;
-	color: black;
 	background: url(../img/header.png) repeat-x;
+	color: black;
+	font-size: 12px;
 	font-family: Verdana;
 }
 a, a:active, a:visited {
@@ -12,8 +13,27 @@ a, a:active, a:visited {
 	margin: auto;
 }
 #header {
-	height: 75px;
+	padding-top: 12px;
+	margin-bottom: 20px;
+	height: 55px;
 	font: 12px 'PerspectiveSansRegular', Arial, sans-serif;
+}
+#logo {
+	float: left;
+	margin-right: 10px;
+}
+.app-name {
+	color: white;
+	font-size: 24px;
+	padding-top: 7px;
+}
+.app-name a {
+	color: white;
+	text-decoration: none;
+}
+.app-by {
+	font-size: 12px;
+	color: #999999;
 }
 
 /* tables */
@@ -23,8 +43,3 @@ a, a:active, a:visited {
 .table th {
 	text-align: left;
 }
-
-
-/* info boxes */
-
-/* forms */
