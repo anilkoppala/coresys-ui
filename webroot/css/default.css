@@ -11,12 +11,14 @@ a, a:active, a:visited {
 #container {
 	width: 1080px;
 	margin: auto;
+	padding-left: 7px;
 }
 #header {
 	padding-top: 12px;
 	margin-bottom: 20px;
 	height: 55px;
 	font: 12px 'PerspectiveSansRegular', Arial, sans-serif;
+	padding-left: 7px;
 }
 #logo {
 	float: left;
