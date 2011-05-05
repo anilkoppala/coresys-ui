@@ -65,6 +65,9 @@ a, a:active, a:visited {
 	color: white;
 	color: 024769;
 	margin-bottom: 10px;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	border-radius: 2px;
 }
 #errorMessage a {
 	color: white;
@@ -80,14 +83,14 @@ a, a:active, a:visited {
 	color: white;
 }
 .error-message {
-	margin-left: 3px;
 	margin-top: 3px;
-	padding: 3px;
-	background-color: #BD2031;
-	color: white;
+	color: #BD2031;
 	-webkit-border-radius: 5px;
     -moz-border-radius: 5px;
     border-radius: 5px;
+}
+input.form-error {
+	border: 1px solid #BD2031;
 }
 
 /* tables */

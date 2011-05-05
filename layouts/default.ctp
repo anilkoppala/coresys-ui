@@ -20,6 +20,7 @@
 		echo $this->Html->script('hashgrid/hashgrid.js');
 		echo $this->Html->script('jquery.maskedinput-1.3.min.js');
 		echo $this->Html->script('phpjs.min.js');
+		echo $this->Html->script('coresys-ui.js');
 		echo $this->Html->script('app.js');
 		echo $scripts_for_layout;
 	?>
