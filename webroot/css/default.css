@@ -49,13 +49,13 @@ a, a:active, a:visited {
 /* flash messages */
 #flashMessage {
 	padding: 10px;
-	background-color: #95CBE9;
+	background-color: #FFF6BF;
 	color: 024769;
 	margin-bottom: 10px;
 }
 .flashMessage {
 	padding: 10px;
-	background-color: #95CBE9;
+	background-color: #FFD324;
 	color: 024769;
 	margin-bottom: 10px;
 }
@@ -88,9 +88,6 @@ a, a:active, a:visited {
 	-webkit-border-radius: 5px;
     -moz-border-radius: 5px;
     border-radius: 5px;
-}
-input.form-error {
-	border: 1px solid #BD2031;
 }
 
 /* tables */
@@ -142,7 +139,6 @@ div.input fieldset legend {
 div.input {
 	margin-bottom: 10px;
 }
-
 div.input > label {
     display: block;
 }
@@ -152,4 +148,7 @@ div.input input[type="radio"], input[type="checkbox"] {
 div.input input[type="radio"] + label, input[type="checkbox"] + label {
     margin-left: 15px;
     display: block;
+}
+input.form-error, select.form-error {
+	border: 1px solid #BD2031;
 }
