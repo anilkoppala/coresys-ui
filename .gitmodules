@@ -1,15 +1,15 @@
 [submodule "webroot/css/blueprint"]
 	path = webroot/css/blueprint
-	url = https://github.com/joshuaclayton/blueprint-css.git
+	url = git://github.com/joshuaclayton/blueprint-css.git
 [submodule "webroot/js/hashgrid"]
 	path = webroot/js/hashgrid
-	url = https://github.com/dotjay/hashgrid.git
+	url = git://github.com/dotjay/hashgrid.git
 [submodule "webroot/css/960"]
 	path = webroot/css/960
-	url = https://github.com/nathansmith/960-Grid-System.git
+	url = git://github.com/nathansmith/960-Grid-System.git
 [submodule "webroot/css/formalize"]
 	path = webroot/css/formalize
-	url = https://github.com/nathansmith/formalize.git
+	url = git://github.com/nathansmith/formalize.git
 [submodule "webroot/js/jquery-ui"]
 	path = webroot/js/jquery-ui
-	url = https://github.com/jquery/jquery-ui.git
+	url = git://github.com/jquery/jquery-ui.git
