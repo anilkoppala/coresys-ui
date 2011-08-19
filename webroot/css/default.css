@@ -52,6 +52,7 @@ a, a:active, a:visited {
 	background-color: #FFF6BF;
 	color: 024769;
 	margin-bottom: 10px;
+	border: 2px solid #EEE5AE;
 }
 .flashMessage {
 	padding: 10px;
@@ -193,7 +194,7 @@ table .altrow td {
 	background: #f5f5f5;
 }
 td.actions {
-	text-align: center;
+	text-align: left;
 	white-space: nowrap;
 }
 table td.actions a {
