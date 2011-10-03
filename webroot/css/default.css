@@ -214,18 +214,26 @@ table td.actions a {
 }
 
 /** Paging **/
-div.paging {
-	background:#fff;
-	color: #ccc;
-	margin-top: 1em;
-	clear:both;
-}
 div.paging span.disabled {
-	color: #ddd;
 	display: inline;
 }
-div.paging span.current {
-	color: #c73e14;
+div.paging span {
+	margin-right: 5px;
 }
 div.paging span a {
+	background-color: #666666;
+	color: white;
+	text-decoration: none;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	padding: 5px;
+}
+div.paging span.current {
+	color: black;
+	border: 1px solid #666666;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	padding: 5px;
 }
