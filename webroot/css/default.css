@@ -150,8 +150,12 @@ div.input input[type="radio"] + label, input[type="checkbox"] + label {
     margin-left: 15px;
     display: block;
 }
-input.form-error, select.form-error {
+div.input input.form-error, select.form-error {
 	border: 1px solid #BD2031;
+}
+div.required input,select,textarea {
+	border-left: 3px solid #BD2031 !important;
+	margin-left: -3px;
 }
 
 /** Tables **/
