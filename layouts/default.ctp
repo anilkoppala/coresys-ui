@@ -8,7 +8,7 @@
 	<?php
 		//echo $this->Html->css('960/code/css/reset.css');
 		echo $this->Html->css('960/code/css/960.css');
-		echo $this->Html->css('formalize/assets/stylesheets/formalize.css');
+		echo $this->Html->css('formalize/assets/css/formalize.css');
 		echo $this->Html->css('default');
 		echo $this->Html->css('fonts');
 		echo $this->Html->css('app');
