@@ -215,7 +215,7 @@ div.input input[type="radio"] + label, input[type="checkbox"] + label {
 div.input input.form-error, select.form-error {
 	border: 1px solid #BD2031;
 }
-div.required input,select,textarea {
+div.required input, div.required select, div.required textarea {
 	border-left: 3px solid #BD2031 !important;
 	margin-left: -3px;
 }
