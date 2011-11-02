@@ -205,6 +205,14 @@ div.input {
 div.input > label {
     display: block;
 }
+div.group_required {
+	border: 1px solid #DDDDDD;
+	border-left: 3px solid #BD2031;
+	margin-left: -3px;
+    margin-bottom: 10px;
+	padding-top: 7px;
+    padding-left: 10px;
+}
 div.input input[type="radio"], input[type="checkbox"] {
     float: left;
 }
