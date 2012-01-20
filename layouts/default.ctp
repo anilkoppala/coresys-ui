@@ -33,8 +33,8 @@
 	<div id="container">
 		<div id="header">
 			<div>
-				<?php print $html->image('minilogo.png', array('id' => 'logo', 'url' => 'http://iwww.broadinstitute.org')) ?>
-				<div class="app-name"><?php print $html->link(Configure::read('App.name'), '/') ?></div>
+				<?php print $this->Html->image('minilogo.png', array('id' => 'logo', 'url' => 'http://iwww.broadinstitute.org')) ?>
+				<div class="app-name"><?php print $this->Html->link(Configure::read('App.name'), '/') ?></div>
 				<div class="app-by">an application created by Broad Institute Administrative Computing</div>
 			</div>
 		</div>
