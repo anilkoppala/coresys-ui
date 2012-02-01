@@ -6,7 +6,6 @@
 		<?php //echo $title_for_layout; ?>
 	</title>
 	<?php
-		//echo $this->Html->css('960/code/css/reset.css');
 		echo $this->Html->css('960/code/css/960.css');
 		echo $this->Html->css('formalize/assets/css/formalize.css');
 		echo $this->Html->css('default');
@@ -15,7 +14,8 @@
 		echo $this->Html->css('hashgrid.css');
 		echo $this->Html->css('smoothness/jquery-ui-1.8.10.custom.css');
 		echo $this->Html->css('gritter/jquery.gritter.css');
-		echo $this->Html->script('jquery-ui/js/jquery-1.4.4.min.js');
+        echo $this->Html->css('menu/superfish.css');
+        echo $this->Html->script('jquery-ui/js/jquery-1.4.4.min.js');
 		echo $this->Html->script('jquery-ui/js/jquery-ui-1.8.10.custom.min.js');
 		echo $this->Html->script('jquery-ui/development-bundle/external/jquery.cookie.js');
 		echo $this->Html->script('hashgrid/hashgrid.js');
@@ -25,6 +25,8 @@
 		echo $this->Html->script('gritter/js/jquery.gritter.min.js');
 		echo $this->Html->script('phpjs.min.js');
 		echo $this->Html->script('coresys-ui.js');
+        echo $this->Html->script('menu/hoverIntent.js');
+        echo $this->Html->script('menu/superfish.js');
 		echo $this->Html->script('app.js');
 		echo $scripts_for_layout;
 	?>
@@ -38,6 +40,8 @@
 				<div class="app-by">an application created by Broad Institute Administrative Computing</div>
 			</div>
 		</div>
+
+
 		<div id="content">
 			<?php echo $this->Session->flash(); ?>
 			<?php echo $this->Session->flash('error'); ?>
