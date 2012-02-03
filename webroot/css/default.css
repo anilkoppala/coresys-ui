@@ -7,7 +7,7 @@
  */
 body {
 	margin: 0;
-	background: url(../img/header.png) repeat-x;
+/*	background: url(../img/header.png) repeat-x;*/
 	color: black;
 	font-size: 12px;
 	font-family: Helvetica, sans-serif;
@@ -21,11 +21,24 @@ a, a:active, a:visited {
 	padding-left: 7px;
 }
 #header {
+    background-color: #2D2D2D;
 	padding-top: 12px;
-	margin-bottom: 20px;
-	height: 55px;
 	font: 12px 'PerspectiveSansRegular', Arial, sans-serif;
-	padding-left: 7px;
+	border-bottom: 7px solid #CCCCCC;
+}
+#header-inner {
+    width: 980px;
+    margin: auto;
+}
+#header-title {
+    height: 65px;
+    padding-left: 7px;
+}
+#menu {
+	height: 31px;
+    background-color: #363636;
+    padding-left: 48px;
+    margin-left: 7px;
 }
 #logo {
 	float: left;

@@ -32,16 +32,21 @@
 	?>
 </head>
 <body>
-	<div id="container">
-		<div id="header">
-			<div>
-				<?php print $this->Html->image('minilogo.png', array('id' => 'logo', 'url' => 'http://iwww.broadinstitute.org')) ?>
-				<div class="app-name"><?php print $this->Html->link(Configure::read('App.name'), '/') ?></div>
-				<div class="app-by">an application created by Broad Institute Administrative Computing</div>
-			</div>
+    <div id="header">
+        <div id="header-inner">
+    		<div id="header-title">
+    			<?php print $this->Html->image('minilogo.png', array('id' => 'logo', 'url' => 'http://iwww.broadinstitute.org')) ?>
+    			<div class="app-name"><?php print $this->Html->link(Configure::read('App.name'), '/') ?></div>
+    			<div class="app-by">an application created by Broad Institute Administrative Computing</div>
+    		</div>
+    		<?php if (class_exists('MenuHelper') && $menu = $this->Menu->render()): ?>
+    		<div id="menu">
+    		    <?php echo $menu?>
+    		</div>
+    		<?php endif ?>
 		</div>
-
-
+	</div>
+	<div id="container">
 		<div id="content">
 			<?php echo $this->Session->flash(); ?>
 			<?php echo $this->Session->flash('error'); ?>
