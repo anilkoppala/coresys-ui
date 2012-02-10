@@ -28,6 +28,7 @@
         echo $this->Html->script('menu/hoverIntent.js');
         echo $this->Html->script('menu/superfish.js');
 		echo $this->Html->script('app.js');
+		echo $this->Html->css('/bootstrap/docs/assets/css/bootstrap.css');
 		echo $scripts_for_layout;
 	?>
 </head>
