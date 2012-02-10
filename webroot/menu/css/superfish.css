@@ -28,6 +28,9 @@
 	display:		block;
 	position:		relative;
 }
+.sf-menu a:hover {
+    text-decoration: none;
+}
 .sf-menu li:hover ul,
 .sf-menu li.sfHover ul {
 	left:			0;
@@ -68,7 +71,8 @@ ul.sf-menu li li li.sfHover ul {
 	color:			white;
 }
 .sf-menu li {
-	background:		#363636;
+	background: #363636;
+	line-height: 1em;
 }
 .sf-menu li li {
 	background:		#363636;
