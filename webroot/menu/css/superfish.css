@@ -29,6 +29,7 @@
 	position:		relative;
 }
 .sf-menu a:hover {
+    color: white;
     text-decoration: none;
 }
 .sf-menu li:hover ul,
