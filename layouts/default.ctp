@@ -8,11 +8,12 @@
     <?php
         echo $this->Html->css('default');
         echo $this->Html->css('fonts');
-        echo $this->Html->css('app');
         echo $this->Html->css('hashgrid.css');
         echo $this->Html->css('smoothness/jquery-ui-1.8.10.custom.css');
         echo $this->Html->css('gritter/jquery.gritter.css');
         echo $this->Html->css('menu/superfish.css');
+        echo $this->Html->css('/bootstrap/docs/assets/css/bootstrap.css');
+        echo $this->Html->css('app.css');
         echo $this->Html->script('/jquery/dist/jquery.js');
         echo $this->Html->script('jquery-ui/js/jquery-ui-1.8.10.custom.min.js');
         echo $this->Html->script('jquery-ui/development-bundle/external/jquery.cookie.js');
@@ -26,7 +27,6 @@
         echo $this->Html->script('menu/hoverIntent.js');
         echo $this->Html->script('menu/superfish.js');
         echo $this->Html->script('app.js');
-        echo $this->Html->css('/bootstrap/docs/assets/css/bootstrap.css');
         echo $scripts_for_layout;
     ?>
 </head>
