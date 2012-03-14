@@ -19,3 +19,6 @@
 [submodule "webroot/jquery"]
 	path = webroot/jquery
 	url = https://github.com/jquery/jquery.git
+[submodule "webroot/chosen"]
+	path = webroot/chosen
+	url = https://github.com/harvesthq/chosen.git
