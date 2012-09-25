@@ -37,7 +37,7 @@
     <div id="header">
         <div id="header-inner">
             <div id="header-title">
-                <?php print $this->Html->image('minilogo.png', array('id' => 'logo', 'url' => 'http://iwww.broadinstitute.org')) ?>
+                <?php print $this->Html->image('minilogo.png', array('id' => 'logo', 'url' => '/')) ?>
                 <div class="app-name"><?php print $this->Html->link(Configure::read('App.name'), '/') ?></div>
                 <div class="app-by">an application created by Broad Institute Administrative Computing</div>
             </div>
