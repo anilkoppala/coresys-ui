@@ -12,7 +12,7 @@ body {
 	font-size: 12px;
 	font-family: Helvetica, sans-serif;
 }
-a, a:active, a:visited {
+a, a:active {
 	color: black;
 }
 #container {
