@@ -39,7 +39,7 @@
             <div id="header-title">
                 <?php print $this->Html->image('minilogo.png', array('id' => 'logo', 'url' => '/')) ?>
                 <div class="app-name"><?php print $this->Html->link(Configure::read('App.name'), '/') ?></div>
-                <div class="app-by">an application created by Broad Institute Administrative Computing</div>
+                <div class="app-by">a BITS application</div>
             </div>
             <?php if (class_exists('MenuHelper') && $menu = $this->Menu->render()): ?>
             <div id="menu">
