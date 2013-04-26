@@ -18,7 +18,7 @@
 	url = https://github.com/twitter/bootstrap.git
 [submodule "webroot/jquery"]
 	path = webroot/jquery
-	url = https://github.com/jquery/jquery.git
+	url = git://github.com/jquery/jquery.git
 [submodule "webroot/chosen"]
 	path = webroot/chosen
-	url = https://github.com/harvesthq/chosen.git
+	url = git://github.com/harvesthq/chosen.git
