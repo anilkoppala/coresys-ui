@@ -2,8 +2,12 @@
 <head>
     <?php echo $this->Html->charset(); ?>
     <title>
-        <?php print Configure::read('App.name') ?>
-        <?php if (!empty($title_for_layout)) echo " - {$title_for_layout}"; ?>
+        <?php if (isset($custom_page_title)): ?>
+            <?php echo $custom_page_title; ?>
+        <?php else: ?>
+            <?php print Configure::read('App.name') ?>
+            <?php if (!empty($title_for_layout)) echo " - {$title_for_layout}"; ?>
+        <?php endif; ?>
     </title>
     <?php
         echo $this->Html->css('default');
