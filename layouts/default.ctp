@@ -14,6 +14,7 @@
         echo $this->Html->css('menu/superfish.css');
         echo $this->Html->css('/bootstrap/docs/assets/css/bootstrap.css');
         echo $this->Html->css('/chosen/chosen/chosen.css');
+        echo $this->Html->css('/jquery-datatables/media/css/jquery.dataTables.css');
         echo $this->Html->css('app.css');
         echo $this->Html->script('/jquery/dist/jquery.js');
         echo $this->Html->script('jquery-ui/js/jquery-ui-1.8.10.custom.min.js');
@@ -29,6 +30,7 @@
         echo $this->Html->script('menu/superfish.js');
         echo $this->Html->script('/chosen/chosen/chosen.jquery.min.js');
         echo $this->Html->script('/chosen/chosen/chosen.proto.min.js');
+        echo $this->Html->script('/jquery-datatables/media/js/jquery.dataTables.js');
         echo $this->Html->script('app.js');
         echo $scripts_for_layout;
     ?>
