@@ -12,7 +12,7 @@ body {
 	font-size: 12px;
 	font-family: Helvetica, sans-serif;
 }
-a, a:active, a:visited {
+a, a:active {
 	color: black;
 }
 #container {
@@ -57,6 +57,7 @@ a, a:active, a:visited {
 .app-by {
 	font-size: 12px;
 	color: #999999;
+	margin-top: 5px;
 }
 
 /* formalize overrides */
@@ -219,9 +220,12 @@ div.input > label {
     display: block;
 }
 div.group_required {
-	border: 1px solid #DDDDDD;
-	border-left: 3px solid #BD2031;
-	margin-left: -3px;
+	border: 1px solid #ccc;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	border-left: 5px solid #BD2031;
+	margin-left: -5px;
     margin-bottom: 10px;
 	padding-top: 7px;
     padding-left: 10px;

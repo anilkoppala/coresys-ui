@@ -2,8 +2,12 @@
 <head>
     <?php echo $this->Html->charset(); ?>
     <title>
-        <?php print Configure::read('App.name') ?>
-        <?php if (!empty($title_for_layout)) echo " - {$title_for_layout}"; ?>
+        <?php if (isset($custom_page_title)): ?>
+            <?php echo $custom_page_title; ?>
+        <?php else: ?>
+            <?php print Configure::read('App.name') ?>
+            <?php if (!empty($title_for_layout)) echo " - {$title_for_layout}"; ?>
+        <?php endif; ?>
     </title>
     <?php
         echo $this->Html->css('default');
@@ -39,9 +43,9 @@
     <div id="header">
         <div id="header-inner">
             <div id="header-title">
-                <?php print $this->Html->image('minilogo.png', array('id' => 'logo', 'url' => 'http://iwww.broadinstitute.org')) ?>
+                <?php print $this->Html->image('minilogo.png', array('id' => 'logo', 'url' => '/')) ?>
                 <div class="app-name"><?php print $this->Html->link(Configure::read('App.name'), '/') ?></div>
-                <div class="app-by">an application created by Broad Institute Administrative Computing</div>
+                <div class="app-by">a BITS application</div>
             </div>
             <?php if (class_exists('MenuHelper') && $menu = $this->Menu->render()): ?>
             <div id="menu">
