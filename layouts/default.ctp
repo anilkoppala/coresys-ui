@@ -56,7 +56,19 @@
     </div>
     <div id="container">
         <div id="content">
-
+            <!-- this allows for site-wide alerts to be enabled;
+                set alert array in app controller, must have the following keys:
+                message => string, message to be displayed in green bar
+                link_label => string, label for link, if using
+                link => string, link value -->
+            <?php if (isset($alert)): ?>
+                <div class="alert alert-success" id="site-wide-alert">
+                    <?php echo $alert['message']; ?>
+                    <?php if (isset($alert['link_label']) && isset($alert['link'])): ?>
+                        <?php echo $this->Html->link($alert['link_label'], $alert['link'], array('admin' => false)); ?>
+                    <?php endif; ?>
+                </div>
+            <?php endif; ?>
             <?php if ($msg = $this->Session->read('Message.flash.message')): ?>
                 <div class="alert alert-info" data-dismiss="alert">
                     <a class="close">×</a><?php print $msg ?>

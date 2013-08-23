@@ -328,3 +328,6 @@ div.paging span.current {
 	border-radius: 3px;
 	padding: 5px;
 }
+div#site-wide-alert {
+	text-align: center;
+}
