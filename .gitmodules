@@ -13,12 +13,12 @@
 [submodule "webroot/js/jquery-ui"]
 	path = webroot/js/jquery-ui
 	url = git://github.com/jquery/jquery-ui.git
-[submodule "webroot/bootstrap"]
-	path = webroot/bootstrap
-	url = https://github.com/twitter/bootstrap.git
 [submodule "webroot/jquery"]
 	path = webroot/jquery
 	url = git://github.com/jquery/jquery.git
 [submodule "webroot/chosen"]
 	path = webroot/chosen
 	url = git://github.com/harvesthq/chosen.git
+[submodule "webroot/twbs"]
+	path = webroot/twbs
+	url = git://github.com/twbs/bootstrap.git

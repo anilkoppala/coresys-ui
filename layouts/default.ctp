@@ -16,7 +16,7 @@
         echo $this->Html->css('smoothness/jquery-ui-1.8.10.custom.css');
         echo $this->Html->css('gritter/jquery.gritter.css');
         echo $this->Html->css('menu/superfish.css');
-        echo $this->Html->css('/bootstrap/docs/assets/css/bootstrap.css');
+        echo $this->Html->css('/twbs/dist/css/bootstrap.css');
         echo $this->Html->css('/chosen/chosen/chosen.css');
         echo $this->Html->css('/jquery-datatables/media/css/jquery.dataTables.css');
         echo $this->Html->css('app.css');
@@ -76,7 +76,7 @@
             <?php unset($_SESSION['Message']['flash']); endif ?>
 
             <?php if ($msg = $this->Session->read('Message.error.message')): ?>
-                <div class="alert alert-error" data-dismiss="alert">
+                <div class="alert alert-danger" data-dismiss="alert">
                     <a class="close">×</a><?php print $msg ?>
                 </div>
             <?php unset($_SESSION['Message']['error']); endif ?>
@@ -87,18 +87,18 @@
         </div>
     </div>
     <?php echo $this->element('sql_dump'); ?>
-    <?php echo $this->Html->script('/bootstrap/js/bootstrap-transition.js') ?>
-    <?php echo $this->Html->script('/bootstrap/js/bootstrap-alert.js') ?>
-    <?php echo $this->Html->script('/bootstrap/js/bootstrap-modal.js') ?>
-    <?php echo $this->Html->script('/bootstrap/js/bootstrap-dropdown.js') ?>
-    <?php echo $this->Html->script('/bootstrap/js/bootstrap-scrollspy.js') ?>
-    <?php echo $this->Html->script('/bootstrap/js/bootstrap-tab.js') ?>
-    <?php echo $this->Html->script('/bootstrap/js/bootstrap-tooltip.js') ?>
-    <?php echo $this->Html->script('/bootstrap/js/bootstrap-popover.js') ?>
-    <?php echo $this->Html->script('/bootstrap/js/bootstrap-button.js') ?>
-    <?php echo $this->Html->script('/bootstrap/js/bootstrap-collapse.js') ?>
-    <?php echo $this->Html->script('/bootstrap/js/bootstrap-carousel.js') ?>
-    <?php echo $this->Html->script('/bootstrap/js/bootstrap-typeahead.js') ?>
+    <?php echo $this->Html->script('/twbs/js/affix.js') ?>
+    <?php echo $this->Html->script('/twbs/js/alert.js') ?>
+    <?php echo $this->Html->script('/twbs/js/button.js') ?>
+    <?php echo $this->Html->script('/twbs/js/carousel.js') ?>
+    <?php echo $this->Html->script('/twbs/js/collapse.js') ?>
+    <?php echo $this->Html->script('/twbs/js/dropdown.js') ?>
+    <?php echo $this->Html->script('/twbs/js/modal.js') ?>
+    <?php echo $this->Html->script('/twbs/js/tooltip.js') ?>
+    <?php echo $this->Html->script('/twbs/js/popover.js') ?>
+    <?php echo $this->Html->script('/twbs/js/scrollspy.js') ?>
+    <?php echo $this->Html->script('/twbs/js/tab.js') ?>
+    <?php echo $this->Html->script('/twbs/js/transition.js') ?>
     <script type="text/javascript">
       var _gaq = _gaq || [];
       _gaq.push(['_setAccount', '<?php print Configure::read('GoogleAnalytics.id') ?>']);
